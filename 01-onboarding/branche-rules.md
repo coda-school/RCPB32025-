@@ -32,19 +32,19 @@ main
 
 Chaque matin :
 
-```bash``
+```bash
 git checkout main
 git pull
 git checkout prenom-nom/jourX
-
+```
 
 ## 4️⃣ Conflits Git : règles
 
 Si conflit → résoudre localement → commit → push :
-
+```bash
 git add .
 git commit -m "fix: resolution conflit"
 git push
-
+```
 
 ⛔ Aucun fichier laissé en état “conflit”.
