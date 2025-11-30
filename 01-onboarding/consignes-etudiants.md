@@ -23,7 +23,7 @@ et les bonnes pratiques à suivre pendant toute la formation.
 - Aucun stress : simple état des lieux
 
 ## 🔹 2. Daily Learning Log
-Avant 17h, vous devez pusher **un fichier markdown** :
+Avant 17h30, vous devez pusher **un fichier markdown** :
 /06-daily/jourX/nom-prenom.md
 
 
@@ -73,12 +73,32 @@ Vous pouvez utiliser l’IA, mais :
 
 # ⚙️ 5. Déroulé pédagogique quotidien
 
-1. Connexion (10 min)  
-2. Concepts (15 min)  
-3. Challenges du jour (matin + début d’après-midi)  
-4. Live coding + peer review  
-5. Quiz sortie (5 min)  
-6. Synthèse & Feedback (10 min)
+1. 🌐 **Rituel du matin (09h35–10h00)**
+   - Quiz d’entrée (5 min)
+   - Connexion / icebreaker technique
+   - Présentation du challenge du jour
+
+2. 💻 **Hackathon — Matin (10h00–12h30)**
+   - Travail en équipes sur le challenge
+   - Construction / reverse engineering avec ou sans IA
+
+3. 💻 **Hackathon — Après-midi (13h30–16h15)**
+   - Suite du challenge
+   - Préparation des démos des 2 équipes du jour
+   - Mise au propre du code pour duplication par les autres
+
+4. 🎥 **Live coding + Peer review (16h15–17h10)**
+   - 2 équipes présentent et codent en live
+   - Les autres équipes dupliquent le code en parallèle
+   - Feedback rapide (peer review)
+
+5. 📝 **Quiz de sortie (17h10–17h15)**
+   - Même quiz que le matin, mais a complété à nouveau pour mesurer la progression
+   - Permet d’ancrer les notions clés du jour et d'évaluer l’évolution de compréhension
+
+6. 🧠 **Synthèse & Feedback (17h15–17h30)**
+   - Mini-capsule du formateur (10 min max)
+   - Daily log : 1 compris / 1 difficulté / 1 question pour demain
 
 ---
 
