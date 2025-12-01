@@ -1,4 +1,4 @@
-# 🎓 QUIZ JOUR 1 — Module React + Frameworks CSS  
+# 🎓 QUIZ JOUR 1 — Module React + Frameworks CSS
 **Durée : 5 minutes — Pas de pression, c’est un état des lieux !**
 
 Ce quiz sert à comprendre ton niveau actuel pour adapter l’accompagnement.  
@@ -11,9 +11,9 @@ Ce quiz sert à comprendre ton niveau actuel pour adapter l’accompagnement.
 A. À styliser automatiquement des composants  
 B. À faciliter la mise en page et l’alignement des éléments
 C. À créer des animations  
-D. À gérer les couleurs d’un site  
+D. À gérer les couleurs d’un site
 
-➡️ **Réponse : 
+➡️ **Réponse : B
 
 ---
 
@@ -22,9 +22,9 @@ D. À gérer les couleurs d’un site
 A. Il remplace JavaScript  
 B. Il fournit des classes ou composants préconstruits
 C. Il traduit le CSS en HTML  
-D. Il supprime le besoin d’apprendre le CSS  
+D. Il supprime le besoin d’apprendre le CSS
 
-➡️ **Réponse : 
+➡️ **Réponse : B
 
 ---
 
@@ -33,9 +33,9 @@ D. Il supprime le besoin d’apprendre le CSS
 A. Un framework basé sur des classes utilitaires
 B. Une bibliothèque d’icônes  
 C. Un outil pour faire uniquement du mobile  
-D. Un outil CSS pour WordPress  
+D. Un outil CSS pour WordPress
 
-➡️ **Réponse : 
+➡️ **Réponse : A
 
 ---
 
@@ -44,9 +44,9 @@ D. Un outil CSS pour WordPress
 A. Un fichier CSS  
 B. Une fonction qui retourne du JSX
 C. Un hook  
-D. Un style prédéfini  
+D. Un style prédéfini
 
-➡️ **Réponse : 
+➡️ **Réponse : B
 
 ---
 
@@ -55,9 +55,9 @@ D. Un style prédéfini
 A. align-center: true;  
 B. display: block; margin: auto;  
 C. display: flex; justify-content: center; align-items: center;
-D. padding: 20px;  
+D. padding: 20px;
 
-➡️ **Réponse : 
+➡️ **Réponse : C
 
 ---
 
@@ -66,9 +66,9 @@ D. padding: 20px;
 A. Une librairie de classes utilitaires  
 B. Un framework basé sur des composants tout prêts
 C. Un outil de test automatisé  
-D. Une extension de VSCode  
+D. Une extension de VSCode
 
-➡️ **Réponse : 
+➡️ **Réponse : A
 
 ---
 
@@ -79,7 +79,7 @@ B. app.json
 C. index.html  
 D. main.jsx ou index.jsx
 
-➡️ **Réponse : 
+➡️ **Réponse : D
 
 ---
 
@@ -88,9 +88,9 @@ D. main.jsx ou index.jsx
 A. Flexbox gère 2 dimensions, Grid une seule  
 B. Grid gère 2 dimensions (lignes + colonnes), Flex une seule
 C. Grid est plus rapide que Flexbox  
-D. Flexbox fait des animations  
+D. Flexbox fait des animations
 
-➡️ **Réponse : 
+➡️ **Réponse : B
 
 ---
 
@@ -99,21 +99,21 @@ D. Flexbox fait des animations
 A. `.parent .child`  
 B. `.title + p`  
 C. `.item > span`  
-D. `p ~ span`  
+D. `p ~ span`
 
-➡️ **Réponse : 
+➡️ **Réponse : C
 
 ---
 
 # 🎯 Résultat attendu (formateur)
 
-- **7–9 bonnes réponses** → étudiant autonome sur CSS  
-- **5–7** → accompagnement léger à prévoir  
+- **7–9 bonnes réponses** → étudiant autonome sur CSS
+- **5–7** → accompagnement léger à prévoir
 - **< 5** → mini-rappel à prévoir (CSS, layout, frameworks, sélecteurs)
 
 ---
 
-🕒 **Timeboxing Git**  
-- Quiz d’entrée : 09h35 → 09h40  
+🕒 **Timeboxing Git**
+- Quiz d’entrée : 09h35 → 09h40
 - Quiz de sortie : 17h10 → 17h15  
 
