@@ -90,7 +90,7 @@ B. Grid gère 2 dimensions (lignes + colonnes), Flex une seule
 C. Grid est plus rapide que Flexbox  
 D. Flexbox fait des animations  
 
-➡️ **Réponse : 
+➡️ **Réponse : D
 
 ---
 
