@@ -70,11 +70,28 @@ export default function ProfileCard() {
   );
 }
 ```
-2️⃣ Les props : données reçues depuis le parent
 
+2️⃣ Puis ajouter le dans `App.jsx`
 
 ```javascript
-export default function ProfileCard(img, name, role, description) {
+import './App.css'
+import ProfileCard from "./components/ProfileCard"
+
+function App() {
+  return (
+    <>
+      <h1>Bonjour</h1>
+      <ProfileCard />
+    </>
+  );
+}
+
+```
+
+2️⃣ Les props : données reçues depuis le parent
+
+```javascript
+export default function ProfileCard({ img, name, role, description }) {
   return (
     <div>Profil</div>
   );
@@ -86,7 +103,6 @@ Ici on utilise la déstructuration, ce qui évite d’écrire props.img, props.n
 <div className="p-4 border rounded-lg shadow-sm bg-white max-w-xs">
 
 4️⃣ Affichage de l’image
- 
 
  ```javascript
 <img
