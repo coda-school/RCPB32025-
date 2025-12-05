@@ -2,9 +2,6 @@
 # CAPTURE FORMATEUR — Qualité du code, Nettoyage, Mode Zombie, Performance, Outils de Diagnostic et Introduction au SSR
 
 **Durée recommandée :** 35 à 45 minutes  
-**Mise en pratique :** 20 minutes
-
----
 
 ## 1. Objectifs pédagogiques
 
@@ -14,7 +11,6 @@
 - Identifier et éviter le "mode zombie" (logique inutile, re-renders non désirés, states superflus).
 - Améliorer la performance d’un composant ou d’une application React.
 - Utiliser des plateformes spécialisées pour analyser colorimétrie, accessibilité, performance et qualité du code.
-- Comprendre les concepts fondamentaux du Server-Side Rendering (SSR).
 
 ---
 
@@ -31,7 +27,8 @@ Un composant propre est :
 
 ---
 
-## 2.1 Checklist : composant propre
+## 2.1 Voir Checklist-composant-propre.md : 
+
 
 ```
 [ ] Le composant ne fait qu'une seule chose
@@ -59,29 +56,6 @@ Un composant entre en "mode zombie" lorsqu'il :
 - exécute des appels réseau non nettoyés ;  
 - contient du code mort ou obsolète.
 
----
-
-### 3.1 Exemple de composant "zombie"
-
-```jsx
-function ZombieComponent({ items }) {
-  const [count, setCount] = useState(0); // inutile
-  const [data, setData] = useState(items); // double stockage
-
-  useEffect(() => {
-    setData(items);
-  }, [items]); // effet inutile
-
-  return <div>{data.length} éléments</div>;
-}
-```
-### 3.2 Version propre
-
-```jsx 
-function CleanComponent({ items }) {
-  return <div>{items.length} éléments</div>;
-}
-```
 ## 4. Performance : cinq erreurs récurrentes
 
 ### 1. Stocker trop de choses dans le state
@@ -122,12 +96,6 @@ Effet purement calculatoire
 Effet qui met à jour un state sans abonnement ni timer
 Effet qui initialise une valeur et ne la réécoute jamais
 
-Exemple correct sans cleanup :
-```jsx
-useEffect(() => {
-  setUserId(generateId());
-}, []);
-```
 Aucune ressource externe → pas besoin de nettoyage.
 # Résumé : le cleanup en 5 points
 
@@ -162,76 +130,6 @@ Protège contre des comportements dangereux ou non voulus.
 
 ### 5.5 SEO
 - Lighthouse (SEO)
-
----
-
-## 6. Mise en pratique (20 minutes)
-
-**Objectif :**  
-Refactoriser un composant fourni.
-
-**Travail demandé :**
-- Supprimer le code zombie.  
-- Améliorer la lisibilité.  
-- Réduire la complexité.  
-- Améliorer les performances.  
-- Vérifier le composant avec Lighthouse.
-
-**Livrable :**  
-Un avant/après du composant + une justification du refactoring.
-
----
-
-## 7. Introduction au SSR (Server-Side Rendering)
-
-### 7.1 Pourquoi le SSR ?
-
-Le SSR permet :
-- un rendu initial plus rapide ;  
-- une meilleure accessibilité ;  
-- une meilleure indexation SEO ;  
-- une optimisation des contenus avant exécution du JavaScript client.
-
----
-
-### 7.2 CSR vs SSR
-
-#### CSR : Client-Side Rendering
-- Le navigateur génère l’interface via JavaScript.  
-- Interactivité forte.  
-- Rendu initial plus lent.  
-- SEO limité.
-
-#### SSR : Server-Side Rendering
-- Le serveur renvoie une page HTML déjà rendue.  
-- Rendu initial très rapide.  
-- SEO maximisé.  
-- Accessibilité renforcée.  
-- React hydrate ensuite le rendu côté client.
-
----
-
-### 7.3 Frameworks SSR
-- Next.js  
-- Remix  
-- Astro  
-- Nuxt (Vue)  
-- SvelteKit  
-
-### 7.4 Exemple minimal SSR (Next.js)
-
-```jsx 
-export async function getServerSideProps() {
-  const res = await fetch("https://api.example.com/data");
-  const data = await res.json();
-
-  return { props: { data } };
-}
-
-export default function Page({ data }) {
-  return <div>{data.title}</div>;
-}
-```
 
 ### 8. Conclusion formateur
 
