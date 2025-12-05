@@ -17,11 +17,6 @@ React échappe automatiquement les valeurs insérées dans le JSX.
 Même si userInput = "<script>alert('XSS')</script>",
 React l’affiche comme texte et n’exécute pas le script.
 
-# Exception dangereuse
-```jsx 
-<div dangerouslySetInnerHTML={{ __html: html }} />
-
-```
 ## 2. React ne protège pas les données
 
 Points essentiels :
