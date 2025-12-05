@@ -9,7 +9,7 @@ Le formateur :
 - facilite,
 - arbitre si besoin,
 - reformule,
-- complète par la capsule finale du jour,
+
 
 ---
 
@@ -70,7 +70,7 @@ Chaque équipe doit déposer :
 ├── peer-grid.md → grille d’évaluation utilisée pour noter les autres
 ├── demo-notes.md → notes de l’équipe pendant les démos
 ├── retrospective.md → mini rétro d’équipe
-└── tech-decisions.md → décisions techniques expliquées
+└── README.md → pour l'évaluation du code par la formatrice
 
 
 ### ✔ peer-grid.md  
@@ -99,7 +99,7 @@ Document expliquant :
 
 # 🧭 4. Déroulé du vendredi
 
-### 🕘 09h35 — Quiz d’entrée  
+### 🕘 09h35 — Capsule du formateur
 ### 🛠️ 09h45 — Préparation finale  
 ### 🍽 12h30 — Pause  
 ### 🎤 13h30 — Début des démos & Peer Assessment  
@@ -111,7 +111,7 @@ Ordre : G1 → G6
 - Partage des bonnes pratiques  
 - Mise en valeur des progrès de chacun  
 
-### 🎓 17h10 — Quiz de sortie  
+### 🎓 17h00 — Quiz de sortie  
 ### 📝 17h15 — Daily Log  
 ### 🎉 17h30 — Clôture du Hackathon
 
